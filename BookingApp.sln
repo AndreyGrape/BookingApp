@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFD09518-27FD-4BA2-B065-DD1F928EAB9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{37CCB804-3369-4058-BD53-BDE034313BB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp", "src\BookingApp\BookingApp.csproj", "{85734157-E2FC-44A2-949E-FC4F620F658B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.Contracts", "src\BookingApp.Contracts\BookingApp.Contracts.csproj", "{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.DataAccessLayer.Contracts", "src\BookingApp.DataAccessLayer.Contracts\BookingApp.DataAccessLayer.Contracts.csproj", "{C402574F-DF91-46D1-B295-888036A40392}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.DataAccessLayer.Extensions", "src\BookingApp.DataAccessLayer.Extensions\BookingApp.DataAccessLayer.Extensions.csproj", "{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApp.DataAccessLayer.Dapper", "src\BookingApp.DataAccessLayer.Dapper\BookingApp.DataAccessLayer.Dapper.csproj", "{EF521AC6-CB77-4720-9A38-EE9928FEAD73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57CF3F26-4C50-4ADD-8D47-380ACD901215}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85734157-E2FC-44A2-949E-FC4F620F658B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85734157-E2FC-44A2-949E-FC4F620F658B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85734157-E2FC-44A2-949E-FC4F620F658B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85734157-E2FC-44A2-949E-FC4F620F658B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C402574F-DF91-46D1-B295-888036A40392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C402574F-DF91-46D1-B295-888036A40392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C402574F-DF91-46D1-B295-888036A40392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C402574F-DF91-46D1-B295-888036A40392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF521AC6-CB77-4720-9A38-EE9928FEAD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF521AC6-CB77-4720-9A38-EE9928FEAD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF521AC6-CB77-4720-9A38-EE9928FEAD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF521AC6-CB77-4720-9A38-EE9928FEAD73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85734157-E2FC-44A2-949E-FC4F620F658B} = {EFD09518-27FD-4BA2-B065-DD1F928EAB9D}
+		{C3BD2F6E-225A-4FE3-A37E-7CD3709D1AF3} = {EFD09518-27FD-4BA2-B065-DD1F928EAB9D}
+		{C402574F-DF91-46D1-B295-888036A40392} = {EFD09518-27FD-4BA2-B065-DD1F928EAB9D}
+		{9CB9B2B3-C2CD-4AD4-97F7-B1A5ADD7EF2D} = {EFD09518-27FD-4BA2-B065-DD1F928EAB9D}
+		{EF521AC6-CB77-4720-9A38-EE9928FEAD73} = {EFD09518-27FD-4BA2-B065-DD1F928EAB9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C4CC099-22DB-4819-8AF7-D2C26498D514}
+	EndGlobalSection
+EndGlobal
